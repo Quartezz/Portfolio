@@ -225,7 +225,14 @@ img {
     display: grid;
     padding: 0 5rem 0 5rem;
     grid-gap: 3rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    /* --grid-column-number: 3;
+    --grid-layout-gap: 3rem;
+    --grid-item-min-width: 350px;
+    --gap-number: calc(var(--grid-column-number) - 1);
+    --total-gap-width: calc(var(--gap-number) * var(--grid-layout-gap));
+    --grid-item-max-width: calc((100% - var(--total-gap-width) / var(--grid-column-number)));
+    grid-template-columns: repeat(auto-fill, minmax(max(var(--grid-item--min-width), var(--grid-item-max-width)), 1fr)); */
 }
 
 .main-projects .projects-container .project {
@@ -235,8 +242,6 @@ img {
     box-shadow: 2px 2px 20px gray;
     border-radius: 10px;
     overflow: hidden;
-    transition: 1s transform;
-    max-width: 500px;
 }
 
 .main-projects .projects-container .project img {
@@ -275,13 +280,22 @@ img {
     justify-content: space-evenly;
 }
 
+.main-projects .projects-container .project .main .link-container .fa-github {
+    color: black;
+}
+
+.main-projects .projects-container .project .main .link-container .fa-github:hover, .projectlink:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
 .main-projects .projects-container .project .main .link-container .projectlink {
     width: 30px;
     height: 30px;
 }
 
-
-
-.fa-github {
-    color: black;
+a:visited {
+    text-decoration: none;
 }
+
+
