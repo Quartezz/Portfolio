@@ -209,3 +209,79 @@ img {
     background-color: #f8e2de;
 }
 
+.main-projects {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1303%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c221 C 41.2%2c200.8 123.6%2c122.2 206%2c120 C 288.4%2c117.8 329.6%2c222.6 412%2c210 C 494.4%2c197.4 535.6%2c60 618%2c57 C 700.4%2c54 741.6%2c206.2 824%2c195 C 906.4%2c183.8 947.6%2c-11.6 1030%2c1 C 1112.4%2c13.6 1154%2c240.4 1236%2c258 C 1318%2c275.6 1399.2%2c122.8 1440%2c89L1440 560L0 560z' fill='rgba(255%2c 237%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c391 C 17%2c423.8 51%2c571.2 85%2c555 C 119%2c538.8 136%2c311.8 170%2c310 C 204%2c308.2 221%2c551.4 255%2c546 C 289%2c540.6 306%2c288.8 340%2c283 C 374%2c277.2 391%2c497.4 425%2c517 C 459%2c536.6 476%2c383.4 510%2c381 C 544%2c378.6 561%2c516 595%2c505 C 629%2c494 646%2c323.4 680%2c326 C 714%2c328.6 731%2c526.4 765%2c518 C 799%2c509.6 816%2c286.4 850%2c284 C 884%2c281.6 901%2c497.8 935%2c506 C 969%2c514.2 986%2c328.2 1020%2c325 C 1054%2c321.8 1071%2c490.4 1105%2c490 C 1139%2c489.6 1156%2c316.6 1190%2c323 C 1224%2c329.4 1241%2c514.2 1275%2c522 C 1309%2c529.8 1327%2c355.2 1360%2c362 C 1393%2c368.8 1424%2c517.2 1440%2c556L1440 560L0 560z' fill='rgba(239%2c 218%2c 36%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1303'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    padding: 0 0 2rem 0;
+}
+
+.main-projects .header{
+    padding: 12rem 5rem 0 5rem;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.main-projects .projects-container {
+    display: grid;
+    padding: 0 5rem 0 5rem;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-projects .projects-container .project {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #fff;
+    box-shadow: 2px 2px 20px gray;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 1s transform;
+    max-width: 500px;
+}
+
+.main-projects .projects-container .project img {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.main-projects .projects-container .project .project-text {
+    padding: 0 1.5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-projects .projects-container .project .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.main-projects .projects-container .project .main .title { 
+    margin: 0;
+}
+
+.main-projects .projects-container .project .main .link-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-projects .projects-container .project .main .link-container .projectlink {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.fa-github {
+    color: black;
+}
