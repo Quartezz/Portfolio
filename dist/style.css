@@ -132,3 +132,80 @@ header nav ul {
     background-color: #262525; 
     z-index: -1;
 }
+
+.main-technologies {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-margin-top: 20px;
+    overflow: hidden;
+}
+
+.main-technologies .title {
+    padding: 0 5rem 0 5rem;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.main-technologies .technologies-container {
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-technologies .technologies-container .technology-cell {
+    position: relative;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    justify-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #262525;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main-technologies .technologies-container .technology-cell
+img {
+    max-height: 100%;
+}
+
+.main-technologies .technologies-container
+.html {
+    background-color: #f8c43a;
+}
+
+.main-technologies .technologies-container
+.css {
+    background-color: #c7ffff;
+}
+
+.main-technologies .technologies-container
+.js {
+    background-color: #f8f4de;
+}
+
+.main-technologies .technologies-container
+.git {
+    background-color: #fdbf85;
+}
+
+.main-technologies .technologies-container
+.webpack {
+    background-color: #d4fdfb;
+}
+
+.main-technologies .technologies-container
+.npm {
+    background-color: #f8e2de;
+}
+
