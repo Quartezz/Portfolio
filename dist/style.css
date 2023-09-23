@@ -294,8 +294,65 @@ img {
     height: 30px;
 }
 
-a:visited {
-    text-decoration: none;
+.main-contact {
+    display: flex;
+    background-color: #C5A451;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: large;
+    scroll-margin-top: 100px;
+    padding: 3rem 3rem 1rem 3rem;
+    justify-content: space-around;
+
+}
+
+.main-contact .contact-container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 4rem;
+}
+
+.main-contact .contact-container-left .title {
+    font-size: 3rem;
+    font-weight: normal;
+    width: 100%;
+}
+
+.main-contact .contact-container-left .contact-info {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+
+.contact-container-right svg {
+    transform: scale(0.8);
 }
 
 
+
+
+
+
+
+
+footer {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #262525;
+    color: #fdbf85;
+    font-size: large;
+    font-weight: 600;
+}
+
+footer .fa-github {
+    color: #fdbf85;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
