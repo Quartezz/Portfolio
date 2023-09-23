@@ -243,6 +243,8 @@ img {
     box-shadow: 2px 2px 20px gray;
     border-radius: 10px;
     overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
 }
 
 .main-projects .projects-container .project img {
@@ -466,8 +468,6 @@ a:visited {
     }
 }
 
-.main-projects .projects-container .project {
-    opacity: 0;
-    transform: translateY(20px);
+.main-projects .projects-container .project.animate {
     animation: fade-in 1s ease forwards;
 }
