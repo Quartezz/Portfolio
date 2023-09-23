@@ -420,11 +420,6 @@ a:visited {
         width: 100vw;
         height: auto;
     }
-
-    .main-contact {
-        display: flex;
-        flex-direction: column;
-    }
 }
 
 @media(max-width: 500px) {
@@ -449,4 +444,30 @@ a:visited {
         width: 500px;
         height: min-content;
     }
+}
+
+@media(max-width: 750px) {
+    .main-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.main-projects .projects-container .project {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade-in 1s ease forwards;
 }
