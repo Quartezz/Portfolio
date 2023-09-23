@@ -1,12 +1,12 @@
 import isInViewport from "./isInViewport"
 
 function handleScroll() {
-    const animatedElement = document.querySelector('.project');
-    if (isInViewport(animatedElement)) {
-        animatedElement.classList.add('animate');
-        // Remove the event listener after the animation has played once
-        window.removeEventListener('scroll', handleScroll);
-    }
+    const projectElements = document.querySelectorAll('.project');
+    projectElements.forEach((element) => {
+        if (isInViewport(element) && !element.classList.contains('animate')) {
+            element.classList.add('animate');
+        }
+    });
 }
 
 export default handleScroll;
