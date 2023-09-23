@@ -14,7 +14,7 @@ const scrollToTopButton = document.getElementById('back-to-top');
 
     document.addEventListener('DOMContentLoaded', function () {
         // Find the button element
-        const jumpButton = document.querySelector('.header-link');
+        const jumpButton = document.querySelector('#header-link');
 
         // Add a click event listener to the button
         jumpButton.addEventListener('click', function (e) {
