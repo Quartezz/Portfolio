@@ -333,13 +333,6 @@ img {
     transform: scale(0.8);
 }
 
-
-
-
-
-
-
-
 footer {
     display: flex;
     max-width: 100%;
@@ -367,4 +360,93 @@ footer .fa-github {
 
 a:visited {
     text-decoration: none;
+}
+
+@media(max-width: 1100px) {
+    .main-introduction {
+        display: flex;
+        padding-bottom: 5rem;
+    }
+
+    .main-introduction .content {
+        display: flex;
+        flex-direction: column;
+        max-height: fit-content;
+        gap: 2rem;
+    }
+
+    .main-introduction .content .about {
+        flex-shrink: 1;
+        flex-grow: 1;
+        width: 60vw;
+        height: auto;
+    }
+}
+
+@media(max-width: 600px) {
+    .main-introduction {
+        display: flex;
+        padding-bottom: 5rem;
+    }
+
+    .main-introduction .image-container{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-introduction .itsMe {
+        margin-top: auto;
+        display: block;
+    }
+
+    .main-introduction .name {
+        font-size: xx-large;
+    }
+
+    .main-introduction .content {
+        display: flex;
+        flex-direction: column;
+        max-height: fit-content;
+        gap: 2rem;
+    }
+
+    .main-introduction .content .about {
+        flex-shrink: 1;
+        flex-grow: 1;
+        width: 100vw;
+        height: auto;
+    }
+
+    .main-contact {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 500px) {
+    .main-projects .projects-container {
+        --grid-item-min-width: 320px;
+        padding: 0 0 0 0;
+    }
+
+    .main-projects {
+        padding: 0 0 0 0;
+    }
+}
+
+@media(max-width: 1000px) {
+    .main-contact {
+        scroll-margin-top: 0px;
+        padding: 3rem 1rem 3rem 1rem;
+        justify-content: space-between;
+    }
+
+    .main-contact .contact-container-right svg {
+        width: 500px;
+        height: min-content;
+    }
 }
