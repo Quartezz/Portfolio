@@ -108,6 +108,7 @@ header nav ul {
 .main-introduction .title {
     font-size: 3rem;
     font-weight: normal;
+    color: #262525;
 }
 
 .main-introduction .personal-links {
@@ -259,6 +260,8 @@ img {
     padding: 0 1.5rem 0 1.5rem;
     display: flex;
     flex-direction: column;
+    background-color: #262525;
+    color: #fff;
 }
 
 .main-projects .projects-container .project .main {
@@ -281,10 +284,10 @@ img {
 }
 
 .main-projects .projects-container .project .main .link-container .fa-github {
-    color: black;
+    color: #fff;
 }
 
-.main-projects .projects-container .project .main .link-container .fa-github:hover, .projectlink:hover {
+.main-projects .projects-container .project .main .link-container .fa-github:hover {
     transition: 0.5s;
     transform: scale(1.2);
 }
@@ -292,6 +295,7 @@ img {
 .main-projects .projects-container .project .main .link-container .projectlink {
     width: 30px;
     height: 30px;
+    color: #fff;
 }
 
 .main-contact {
@@ -352,6 +356,14 @@ footer .fa-github {
     color: #fdbf85;
 }
 
+.fa-link {
+    color: #fff;
+}
+
+.fa-link:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
 
 a:visited {
     text-decoration: none;
