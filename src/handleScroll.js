@@ -1,12 +1,10 @@
-import isInViewport from "./isInViewport"
-
-function handleScroll() {
-    const projectElements = document.querySelectorAll('.project');
-    projectElements.forEach((element) => {
-        if (isInViewport(element) && !element.classList.contains('animate')) {
-            element.classList.add('animate');
+function handleIntersection(entries, observer) {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            // When a project item is in the viewport, add the 'animate' class
+            entry.target.classList.add('animate');
         }
     });
 }
 
-export default handleScroll;
+export default handleIntersection;
