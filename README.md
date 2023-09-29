@@ -1,5 +1,4 @@
 <p align="center">
-  <a href="https://rahimratnani.com">
     <h1 align="center">My Portfolio Site</h1>
   </a>
 </p> 
