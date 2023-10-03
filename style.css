@@ -212,6 +212,17 @@ img {
     background-color: #f8e2de;
 }
 
+.main-technologies .technologies-container
+.react {
+    background-color: #caeaf8;
+}
+
+.main-technologies .technologies-container
+.sass {
+    background-color: #c99ad3;
+}
+
+
 .main-projects {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1317%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c218 C 41.2%2c194.8 123.6%2c114.8 206%2c102 C 288.4%2c89.2 329.6%2c158.4 412%2c154 C 494.4%2c149.6 535.6%2c76 618%2c80 C 700.4%2c84 741.6%2c176.8 824%2c174 C 906.4%2c171.2 947.6%2c54.2 1030%2c66 C 1112.4%2c77.8 1154%2c218.8 1236%2c233 C 1318%2c247.2 1399.2%2c156.2 1440%2c137L1440 560L0 560z' fill='rgba(248%2c 196%2c 58%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c418 C 18%2c433 54%2c497 90%2c493 C 126%2c489 144%2c387.6 180%2c398 C 216%2c408.4 234%2c567 270%2c545 C 306%2c523 324%2c310.2 360%2c288 C 396%2c265.8 414%2c433 450%2c434 C 486%2c435 504%2c270 540%2c293 C 576%2c316 594%2c547 630%2c549 C 666%2c551 684%2c309.4 720%2c303 C 756%2c296.6 774%2c519 810%2c517 C 846%2c515 864%2c310.6 900%2c293 C 936%2c275.4 954%2c424.6 990%2c429 C 1026%2c433.4 1044%2c306.6 1080%2c315 C 1116%2c323.4 1134%2c469.6 1170%2c471 C 1206%2c472.4 1224%2c315.2 1260%2c322 C 1296%2c328.8 1314%2c505.6 1350%2c505 C 1386%2c504.4 1422%2c356.2 1440%2c319L1440 560L0 560z' fill='rgba(197%2c 164%2c 81%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1317'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
     background-size: cover;
